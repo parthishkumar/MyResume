@@ -10,6 +10,13 @@ footer{
 h2{
     color: rgb(255, 255, 255)
 }
-.text-color1{
+.para-attribs{
     color: rgb(103, 5, 120);
+    font-size: 20px;
+}
+#text-align{
+    text-align: center
+}
+#resize-font{
+    font-size: 20px;
 }
