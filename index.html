@@ -8,34 +8,40 @@
         rel="stylesheet"
         href="./styles.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="text-align">Parthish Kumar's Personal Profile</h1>
+    <h1 class="libre-baskerville-regular" id="text-align-center">Parthish Kumar's Personal Profile</h1>
     
-    <p class="para-attribs" id="text-align">
+    <p class="para-attribs" id="text-align-center">
         Bengaluru India PIN-562149 | <a href="https://www.linkedin.com/in/parthish-p-606715169/">LinkedIn</a>
     </p>
-    <p class="para-attribs">v1.2.3</p>
+    <p class="para-attribs">v1.2.4</p>
     <hr />
     <h2>Portfolio</h2>
-    <img src="./Assets/Parthish PP Size Square.png" alt="Passport size photograph of Parthish" height = 200/>
-    <p class="para-attribs" id="text-align">
-        With a versatile experience of over thirteen years in academia, industry 
-        and IT sector in India, I am currently a full time s/w developer building the next gen 
-        digital solutions for the world. 
-        <br />
-        PARSEC Telecom, Reliance NMSEZ, and MHRD (Govt. of India) are few of those organizations, 
-        for whom I worked in the past. 
-        <br />
-        I am a passionate s/w developer with around four years of IT field experience.
-        <br />
-        I am a PhD in Electrical Engineering from NITC (India) and 
-        published several peer reviewed journal papers on a helicopter control problem. 
-        <br />
-        My most recent job experience goes to English NLP problem, AI/ML and coding in C/C++/Python. 
-        <br />
-        I am passionate for cloud computing, app building, and AI/ML. 
-    </p>
+    <div class="container">
+        <div class="box-left">
+            <img src="./Assets/Parthish PP Size Square.png" alt="Passport size photograph of Parthish" height = 200/>
+        </div>
+        <div class="box-right">
+            <p class="para-attribs" id="text-align">
+                With a versatile experience of over thirteen years in academia, industry 
+                and IT sector in India, I am currently a full time s/w developer building the next gen 
+                digital solutions for the world. 
+                PARSEC Telecom, Reliance NMSEZ, and MHRD (Govt. of India) are few of those organizations, 
+                for whom I worked in the past. 
+                I am a passionate s/w developer with around four years of IT field experience.
+                I am a PhD in Electrical Engineering from NITC (India) and 
+                published several peer reviewed journal papers on a helicopter control problem. 
+                My most recent job experience goes to English NLP problem, AI/ML and coding in C/C++/Python. 
+                I am passionate for cloud computing, app building, and AI/ML. 
+            </p>
+            
+        </div>
+    </div>
+    
     <hr />
     <h2>Skill Set</h2>
     <ul class="para-attribs">
@@ -103,7 +109,7 @@
         <li >E-mail ID: parthish.job@gmail.com</li>
     </ol>
     <hr />
-    <footer id="resize-font">
+    <footer class="libre-baskerville-regular" id="resize-font">
         <p>© 2024 Parthish</p>
     </footer>
 </body>
